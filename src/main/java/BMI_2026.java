@@ -31,6 +31,7 @@ public class BMI_2026 {
         double height = getDetailsDouble("Enter height in meters");
         double BMI = weight/(height * 2);
         System.out.printf("Your BMI is %.1f", BMI);
+        System.out.println("");
     }
 
     private static String getDetailsString(String message){
